@@ -18,16 +18,25 @@ body {
   padding: 0.125em;
   padding-bottom: 0;
 }
+#title {
+  border-bottom: 0.0625em solid #fff;
+  padding-bottom: 0.5em;
+}
 #school {
   display: inline-block;
-  border-top: 0.0625em solid #fff;
-  padding-top: 0.125em;
-  padding-left: 1.875em;
+  padding-top: 0.5em;
+  margin-left: 1.875em;
   font-size: 1.1250em;
-  letter-spacing: 2.1875em;
+  letter-spacing: 2.5em;
   text-decoration-color: #fff;
 }
 #initialTag, #endingTag {
   font-size: 2.5em;
-  color: red;
+  color: #ff0000;
+}
+#initialTag {
+  padding-right: 0.125em;
+}
+#endingTag {
+  padding-left: 0.125em;
 }
