@@ -1,28 +1,31 @@
 body {
+  padding-top: 50vh;
   font-family: 'Helvetica', sans-serif;
   font-weight: 200;
   text-align: center;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility !important;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
 
 }
 #access, #code {
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-decoration-color: white;
   font-size: 2.5em;
+  letter-spacing: 0.0625em;
 }
 #code {
-  padding-right: 10px;
   background-color: red;
-  padding: 3px;
+  padding: 0.125em;
+  padding-bottom: 0;
 }
 #school {
+  display: inline-block;
+  border-top: 0.0625em solid #fff;
+  padding-top: 0.125em;
   padding-left: 1.875em;
-  text-transform: uppercase;
   font-size: 1.1250em;
   letter-spacing: 2.1875em;
+  text-decoration-color: #fff;
 }
 #initialTag, #endingTag {
   font-size: 2.5em;
